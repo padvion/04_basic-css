@@ -1,0 +1,90 @@
+body { 
+    background-color: #EAEBFF;
+    margin: 0;
+    
+}
+h1,h2 {
+    font-family: "Audiowide";
+  }
+
+h2 {
+    font-size: 28px
+}
+
+
+h3,h4,h5,h6,p,a,ul,li {
+    font-family: "Poppins";
+  }
+
+header {
+    text-align: center;
+    color: 121036;
+}
+
+
+/* navigationbar */
+nav {
+    background-color: #121036;
+    color: #121036;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav a:link {
+    color: #EAEBFF;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+nav a:visited {
+    color: #EAEBFF;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+nav a:hover {
+    color: #FBF23D;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+nav a:active {
+    color: #3D46FB;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+nav li{
+    display: inline;
+    float: center;
+}
+
+
+main {
+    padding: 40px;
+}
+
+.favourites{
+    border: 2px;
+    border-style: solid;
+    border-color: #3D46FB;
+    padding: 5px;
+    width: 100%;
+}
+
+.favourites img {
+    float: right;
+}
+
+footer { 
+    background-color: #121036;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    padding-top: 20px;
+    bottom: 0;
+    width: 100%;
+    height: 5.0em
+}
